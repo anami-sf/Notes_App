@@ -50,7 +50,7 @@ yargs.command({
     command: 'read',
     describe: 'reads notes',
     handler: function () {
-        console.log('Reading notes', argv)
+        console.log('Reading notes')
     }
 })
 
